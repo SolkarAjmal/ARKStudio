@@ -1,0 +1,233 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  /* background-color: #f1f1f1; */
+  /* padding: 0px 10px; */
+  /* margin-top: 12px; */
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  opacity: 61.5%;
+}
+
+/* .header-right{
+    margin-top: 10px;
+} */
+
+.header a {
+   float: left; 
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+.logo {
+ width: 71px;
+ height: auto;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* .header-right {
+  float: right;
+} */
+
+.banner {
+    background-image: url("image/billboard.jpg");
+    background-color: #cccccc;  
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: cover;
+    position: relative;
+    top: -75px;
+    z-index: -1;
+}
+
+.text-data{
+  position: relative;
+  bottom: 10%;
+  top: 88%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  opacity: 61.5%;
+  padding: 10px 40px;
+}
+
+.main-btn{
+  background-color: rgba(49, 114, 243, 0.918);
+  padding: 7px;
+  color: black;
+  border-color: rgba(28, 99, 240, 0.918);
+  border-radius: 50px;
+  
+  
+  
+  /* margin-top: 10px; */
+}
+
+.awsome-listing{
+  display: flex;
+  /* justify-content: center; */
+  text-align: center;
+    /* margin-right: 150px; */
+  /* margin-left: 150px; */
+}
+.testimonial{
+  background-color: #cccccc;
+  /* padding: 12px 12px 12px 12px; */
+  /* margin-right: 150px;
+  margin-left: 150px; */
+}
+.testimonial-listing{
+  display: flex;
+  /* justify-content: center; */
+  /* text-align: center; */
+}
+.awsome{
+  background-color: #cccccc;
+  /* margin-right: 150px;
+  margin-left: 150px; */
+
+}
+
+.awsome-list1, .awsome-list2, .awsome-list3{
+/* margin: 0px 20px; */
+padding: 70px;
+}
+.testimonial-list1,.testimonial-list2,.testimonial-list3{
+  /* margin: 0px 20px; */
+  padding: 70px;
+  }
+
+.we-ark{
+  text-align: center;
+
+  margin-top: -75px;
+  padding-top:5px ;
+}
+/* .img1{
+  float: right;
+  justify-items:center ;
+} */
+
+.testimonials{
+  background-color:white;
+}
+.testimonial{
+  text-align: center;
+  margin-top: -3px;
+  padding-top: 5px;
+}
+.image-listing{
+  display: flex;
+  /* justify-content: center; */
+  flex-wrap: nowrap;
+  /* object-fit: contain; */
+  /* margin-left: 150px;
+  margin-right: 150px; */
+   /* width: 200px;
+   height: 300px;  */
+
+}
+
+.image-listing img{
+  width: 250px;
+}
+
+.footer{
+  /* margin-top: 150px; */
+  width: 100%;
+  padding: 100px 15%;
+  background: #333;
+  color: #efefef;
+  display: flex;
+}
+/* .footer div{
+  text-align: center;
+} */
+/* .col-2{
+  flex-grow: 2;
+} */
+.footer div h2{
+  font-weight: 300;
+  margin-bottom:30px;
+  letter-spacing: 1;
+}
+.col-2 a{
+  display: block;
+  text-decoration: none;
+  color: #efefef;
+  margin-bottom: 10px;
+}
+.col-3 a{
+  display: block;
+  text-decoration: none;
+  color: #efefef;
+  /* margin-bottom: 10px; */
+}
+.col-1,.col-2,.col-3,.col-4{
+  display: flex;
+    list-style: none;
+    flex-direction: column;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 80px;
+}
+
+.copyright{
+  justify-content: center;
+  display: inline;
+  }
+
+.text-data1{
+  position: relative;
+  bottom: 74px;
+  top: 51px;
+  display: flex;
+  /* justify-content: space-between; */
+  background-color: white;
+  opacity: 61.5%;
+  justify-content: center;
+  margin-left: 145px;
+  margin-right: 145px;
+  margin-top: -51px;
+  }
+/* .bottom{
+  text-align: center;
+  display: inline-block;
+  color: blueviolet;} */
+  .main-btn1{
+    background-color: aquamarine;
+    padding: 12px;
+    color: black;
+    border-color: aquamarine;
+    /* margin-top: 10px; */
+  }
+
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
